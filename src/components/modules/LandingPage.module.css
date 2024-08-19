@@ -1,0 +1,69 @@
+.landingPage {
+    background-image: url('../assets/pexels-photo-10390494.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaButton {
+    background-color: #f17228;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff6347;
+  }

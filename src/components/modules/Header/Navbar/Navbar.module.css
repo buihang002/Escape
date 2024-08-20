@@ -1,0 +1,57 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 15px;
+  margin: 0px 50px;
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navLink {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+.w-container{
+  display: flex;
+}
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background-color: #ff7f50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ctaButton:hover {
+  background-color: #ff6347;
+}

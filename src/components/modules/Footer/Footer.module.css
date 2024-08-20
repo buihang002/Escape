@@ -1,0 +1,83 @@
+.mainSection {
+    background-color: #333;
+    padding: 3px 0;
+  }
+  
+  .wContainer {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .white {
+    color: #fff;
+  }
+  
+  .medDivider {
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    margin: 20px auto;
+  }
+  
+  .formWrapper {
+    text-align: center;
+  }
+  
+  .field {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #ff7a59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .successMessage,
+  .wFormFail {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .footerSection {
+    background-color: #222;
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
+  
+  .footerLogo {
+    display: inline-block;
+  }
+  
+  .longText {
+    font-size: 24px;
+    color: #fff;
+    
+  }
+  
+  .footerLinks {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footerLink {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  .footerLink:hover {
+    color: #fff;
+  }
+  

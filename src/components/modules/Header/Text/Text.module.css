@@ -1,0 +1,43 @@
+
+.w-container{
+  display: flex;
+}
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background-color: #f17228;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ctaButton:hover {
+  background-color: #d33e24;
+}
+.landingPage {
+  background-image: url('../../../assets/pexels-photo-10390494.webp');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative; 
+
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+

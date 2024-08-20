@@ -1,0 +1,37 @@
+.postCard {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .postCard img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .postContent {
+    padding: 15px;
+  }
+  
+  .category {
+    color: #fff;
+    background-color: #007bff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .postContent h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .postInfo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #888;
+  }
+  

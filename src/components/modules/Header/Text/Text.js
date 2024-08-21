@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 const Text= () => {
   return (
     <div className={styles.landingPage}>
-      <Navbar />  
+      {/* <Navbar />   */}
 
         <div className={styles.content}>
           <h2>Let's do it together.</h2>

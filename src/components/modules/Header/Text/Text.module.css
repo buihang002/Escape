@@ -1,43 +1,30 @@
-
-.w-container{
+ .landingPage {
+  position: relative;
+  background-image: url('../../../assets/pexels-photo-10390494.webp');
+  background-size: cover;
+  height: 80vh; /* Chiều cao toàn màn hình */
   display: flex;
-}
-.content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.content h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.content p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+.content {
+  z-index: 1; /* Đảm bảo nội dung xuất hiện phía trên hình nền */
+  color: white;
 }
 
 .ctaButton {
-  background-color: #f17228;
-  color: white;
-  padding: 20px 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff5722;
   border: none;
-  border-radius: 5px;
+  color: white;
   cursor: pointer;
-  font-size: 1rem;
 }
 
 .ctaButton:hover {
-  background-color: #d33e24;
+  background-color: #e64a19;
 }
-.landingPage {
-  background-image: url('../../../assets/pexels-photo-10390494.webp');
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  position: relative; 
-
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-

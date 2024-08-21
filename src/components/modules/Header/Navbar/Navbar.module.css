@@ -5,6 +5,9 @@
   align-items: center;
   padding: 17px 15px;
   margin: 0px 50px;
+  position: absolute; 
+
+  z-index: 10; 
 }
 
 .brand {
@@ -54,4 +57,8 @@
 
 .ctaButton:hover {
   background-color: #ff6347;
+}
+.overlay {
+  position: relative;
+  z-index: 10;
 }

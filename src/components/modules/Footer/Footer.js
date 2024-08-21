@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Footer.module.css';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   const [email, setEmail] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
@@ -59,13 +59,13 @@ const Footer = () => {
         <div className={styles.wContainer}>
           <div className="w-row">
             <div className="w-col w-col-4 w-col-small-4">
-              <a
-                href="https://escape-free-template.webflow.io/"
-                aria-current="page"
-                className={styles.footerLogo}
+            <li><Link to="/" className={styles.navLink}>HOME</Link></li>
+
+              <Link to="/" aria-current="page"
+                className={styles.footerLogo}                
               >
                 <div className={styles.longText}>Escape.</div>
-              </a>
+              </Link>
             </div>
             <div className={styles.footerLinks}>
               <a

@@ -10,6 +10,7 @@ import Categories from './pages/Categories/Categories';
 import Contact from './pages/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/modules/Body/Home/Home';
+import Nature from './pages/ListCategory/Nature';
 function App() {
   return (
 
@@ -18,15 +19,12 @@ function App() {
 <Navbar />
       <Routes>
  <Route path='/' element={<Home/>} />
-
 <Route path='/about' element={<About />} />
 <Route path='/categories' element={<Categories />} />
 <Route path='/contact' element={<Contact />} />
+<Route path='/nature' element={<Nature />} />
 
 </Routes>
-        {/* <Navbar/> */}
-        {/* <Text />
-        <Section /> */}
         <div className=''>
         <Footer />
       </div>

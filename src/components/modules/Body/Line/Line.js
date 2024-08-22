@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from '../Line/Line.module.css';
-
+import { Link } from 'react-router-dom';
 const Line = () => {
   return (
     <nav className={styles.nav}>
     <ul>
-      <li><a href="/nature">Nature</a></li>
-      <li><a href="/photography">Photography</a></li>
-      <li><a href="/relaxation">Relaxation</a></li>
-      <li><a href="/vacation">Vacation</a></li>
-      <li><a href="/travel">Travel</a></li>
-      <li><a href="/adventure">Adventure</a></li>
+      <li><Link to="/nature">Nature</Link></li>
+      <li><Link to="/photography">Photography</Link></li>
+      <li><Link to="/relaxation">Relaxation</Link></li>
+      <li><Link to="/vacation">Vacation</Link></li>
+      <li><Link to="/travel">Travel</Link></li>
+      <li><Link to="/adventure">Adventure</Link></li>
     </ul>
   </nav>
 

@@ -59,13 +59,13 @@ const Footer = () => {
         <div className={styles.wContainer}>
           <div className="w-row">
             <div className="w-col w-col-4 w-col-small-4">
-            <li><Link to="/" className={styles.navLink}>HOME</Link></li>
-
-              <Link to="/" aria-current="page"
-                className={styles.footerLogo}                
+              <a
+                href="https://escape-free-template.webflow.io/"
+                aria-current="page"
+                className={styles.footerLogo}
               >
                 <div className={styles.longText}>Escape.</div>
-              </Link>
+              </a>
             </div>
             <div className={styles.footerLinks}>
               <a

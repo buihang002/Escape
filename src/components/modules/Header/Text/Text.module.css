@@ -2,7 +2,7 @@
   position: relative;
   background-image: url('../../../assets/pexels-photo-10390494.webp');
   background-size: cover;
-  height: 80vh; /* Chiều cao toàn màn hình */
+  height: 80vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .content {
-  z-index: 1; /* Đảm bảo nội dung xuất hiện phía trên hình nền */
+  z-index: 1;
   color: white;
 }
 
